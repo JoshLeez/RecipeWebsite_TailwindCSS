@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -11,7 +12,8 @@ export default {
       white : "#FFF",
       blue_black : "#12103D",
       gray_black : "#333333",
-      shadow : "rgba(224, 224, 236, 0.80)"
+      shadow : "rgba(224, 224, 236, 0.80)",
+      dark_black : "#000000"
     },
     extend: {
       fontFamily:{

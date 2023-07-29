@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="text-white flex flex-row gap-28">
                 <div className="flex flex-col gap-4">
                     <h3 className="text-base font-semibold">About Us</h3>
-                    <div className="flex flex-col gap-2 text-sm font-normal">
+                    <div className="flex flex-col gap-2 text-sm font-normal [&>p:hover]:cursor-pointer [&>p:hover]:text-dark_black">
                         <p>About the Website</p>
                         <p>Partnership</p>
                         <p>Privacy Policy</p>
@@ -19,14 +19,14 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                     <h3 className="text-base font-semibold">Service</h3>
-                    <div className="flex flex-col gap-2 text-sm font-normal">
+                    <div className="flex flex-col gap-2 text-sm font-normal  [&>p:hover]:cursor-pointer [&>p:hover]:text-dark_black">
                         <p>Our Contact</p>
                         <p>Recipe</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4">
                     <h3 className="text-base font-semibold">About Us</h3>
-                    <div className="flex flex-col gap-2 text-sm font-normal">
+                    <div className="flex flex-col gap-2 text-sm font-normal [&>p:hover]:cursor-pointer [&>p:hover]:text-dark_black">
                         <p>About the Website</p>
                         <p>Partnership</p>
                         <p>Privacy Policy</p>

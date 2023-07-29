@@ -15,8 +15,8 @@ function App() {
       <Navbar/>
       <div className="w-auto h-[450px] flex flex-row gap-20 pl-8 overflow-x-hidden items-center">
         <div className="border-1 border-gray_black h-auto w-[460px] flex flex-col gap-4">
-          <h1 className="text-[38px] font-semibold">Delicious Food & Recipes For Your Family</h1>
-          <p className="text-base text-blue_black mb-4">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
+          <h1 className="text-[38px] font-semibold dark:text-white">Delicious Food & Recipes For Your Family</h1>
+          <p className="text-base text-blue_black mb-4 dark:text-white">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
           <a className="text-sm font-medium cursor-pointer text-white bg-primary_color w-[136px] h-10 rounded-[20px] flex items-center justify-center">Sign Up Now</a>
         </div>
         <img src="/logo/Hero.svg" className="h-full w-auto relative left-20" alt="Home-Page-Hero"/>
