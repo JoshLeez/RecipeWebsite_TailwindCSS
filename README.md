@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 Detail of Website:
 A Homepage of sharing Recipe Website.
 Created with vitejs/React and Tailwind CSS
+
+Link Demo Website : https://joshrecipe.netlify.app/
